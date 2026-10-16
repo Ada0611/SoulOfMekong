@@ -3,7 +3,7 @@ export const project = {
   tagline: 'Giữ hồn miền Tây, kể chuyện hôm nay.',
   university: 'FPT University — Campus Can Tho',
   course: 'SSG105 | Student Project: Creating Social Solutions',
-  className: '1-TM2001',
+  className: 'TM2001',
   reportDate: '05/11/2026',
   members: ['Huỳnh Như Ý (Leader)','Nguyễn Trúc Mai','Trần Hà Bảo Trân','Lâm Thanh Tuấn','Nguyễn Võ Nhật Duy'].map(n => ({ name: n, share: 20 })),
   nav: [

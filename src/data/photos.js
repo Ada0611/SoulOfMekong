@@ -1,0 +1,88 @@
+// Ảnh đăng trên Facebook (Facebook chỉ đăng hình ảnh).
+// url: dán link bài Facebook tương ứng vào đây; để trống thì không hiện nút "Xem bài trên Facebook".
+export const photos = [
+  {
+    id: 1,
+    title: 'Làng bánh tráng Cù lao Mây (Vĩnh Long)',
+    src: '/BanhTrang.png',
+    platform: 'Facebook',
+    url: 'https://www.facebook.com/share/p/18ZtkKadhQ/',
+  },
+  {
+    id: 2,
+    title: 'Làng bánh tráng Cù lao Mây (Vĩnh Long)',
+    src: '/BanhTrang2.png',
+    platform: 'Facebook',
+    url: 'https://www.facebook.com/share/p/18ZtkKadhQ/',
+  },
+  {
+    id: 3,
+    title: 'Làng bánh tráng Cù lao Mây (Vĩnh Long)',
+    src: '/BanhTrang3.png',
+    platform: 'Facebook',
+    url: 'https://www.facebook.com/share/p/18ZtkKadhQ/',
+  },
+  {
+    id: 4,
+    title: 'Làng bánh tráng Cù lao Mây (Vĩnh Long)',
+    src: '/BanhTrang4.png',
+    platform: 'Facebook',
+    url: 'https://www.facebook.com/share/p/18ZtkKadhQ/',
+  },
+  {
+    id: 5,
+    title: 'Làng bánh tráng Cù lao Mây (Vĩnh Long)',
+    src: '/BanhTrang5.png',
+    platform: 'Facebook',
+    url: 'https://www.facebook.com/share/p/18ZtkKadhQ/',
+  },
+  {
+    id: 6,
+    title: 'Làng bánh tráng Cù lao Mây (Vĩnh Long)',
+    src: '/BanhTrang6.png',
+    platform: 'Facebook',
+    url: 'https://www.facebook.com/share/p/18ZtkKadhQ/',
+  },
+  {
+    id: 7,
+    title: 'Làng bánh tráng Cù lao Mây (Vĩnh Long)',
+    src: '/BanhTrang7.png',
+    platform: 'Facebook',
+    url: 'https://www.facebook.com/share/p/18ZtkKadhQ/',
+  },
+  {
+    id: 8,
+    title: 'Làng nghề tơ lụa Tân Châu (An Giang)',
+    src: '/ToLua.png',
+    platform: 'Facebook',
+    url: 'https://www.facebook.com/share/p/1C5gw8pbYA/',
+  },
+  {
+    id: 9,
+    title: 'Làng nghề tơ lụa Tân Châu (An Giang)',
+    src: '/ToLua2.png',
+    platform: 'Facebook',
+    url: 'https://www.facebook.com/share/p/1C5gw8pbYA/',
+  },
+  {
+    id: 10,
+    title: 'Làng nghề tơ lụa Tân Châu (An Giang)',
+    src: '/ToLua3.png',
+    platform: 'Facebook',
+    url: 'https://www.facebook.com/share/p/1C5gw8pbYA/',
+  },
+  {
+    id: 11,
+    title: 'Làng nghề tơ lụa Tân Châu (An Giang)',
+    src: '/ToLua4.png',
+    platform: 'Facebook',
+    url: 'https://www.facebook.com/share/p/1C5gw8pbYA/',
+  },
+  {
+    id: 12,
+    title: 'Làng nghề tơ lụa Tân Châu (An Giang)',
+    src: '/ToLua5.png',
+    platform: 'Facebook',
+    url: 'https://www.facebook.com/share/p/1C5gw8pbYA/',
+  },
+];

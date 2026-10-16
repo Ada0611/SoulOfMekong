@@ -259,7 +259,7 @@ export const stories = [
     "date": null,
     "short": "Thổ cẩm Chăm",
     "category": "Câu chuyện",
-    "image": "/DetThocam.png",
+    "image": "/DetThoCam.png",
     "order": 2
   },
   {
