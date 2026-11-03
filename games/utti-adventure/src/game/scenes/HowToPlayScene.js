@@ -7,7 +7,7 @@ export default class HowToPlayScene extends Phaser.Scene {
   constructor() { super('HowToPlayScene'); }
   create() {
     const pid = gm.provinceId; this.cameras.main.fadeIn(250, 0, 0, 0);
-    new Backdrop(this, pid, { clouds: false });
+    new Backdrop(this, pid, { clouds: false, depth: -20 });
     panel(this, W / 2, H / 2, 1120, 660); txt(this, W / 2, 62, 38, '#2f6a2a').setText('HƯỚNG DẪN');
     const line = (y, s, size = 20) => txt(this, W / 2 + 40, y, size, '#3a2410', { fontStyle: 'normal', align: 'left', wordWrap: { width: 800 } }).setText(s).setOrigin(.5, .5);
     this.add.image(190, 232, 'utti_run_1').setScale(.55).setOrigin(.5, 1);

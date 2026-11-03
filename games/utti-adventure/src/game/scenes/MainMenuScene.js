@@ -8,7 +8,7 @@ export default class MainMenuScene extends Phaser.Scene {
   constructor() { super('MainMenuScene'); }
   create() {
     gm.state = STATE.MENU; this.cameras.main.fadeIn(300, 0, 0, 0); const pid = gm.provinceId;
-    this.bg = new Backdrop(this, pid);
+    this.bg = new Backdrop(this, pid, { depth: -20 });
     this.utti = this.add.sprite(250, 650, 'utti_idle_0').setOrigin(.5, 1).setScale(1.3).setDepth(10).play('idle');
     this.tweens.add({ targets: this.utti, y: 644, yoyo: true, repeat: -1, duration: 900, ease: 'Sine.InOut' });
     const t1 = txt(this, W / 2 + 120, 96, 64, '#fff3c8', { stroke: '#6a3f12', strokeThickness: 10 }).setText('ÚT TÍ PHIÊU LƯU KÝ'); this.tweens.add({ targets: t1, scale: 1.03, yoyo: true, repeat: -1, duration: 1600, ease: 'Sine.InOut' });

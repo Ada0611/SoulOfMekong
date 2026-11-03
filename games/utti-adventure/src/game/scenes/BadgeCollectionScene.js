@@ -10,7 +10,7 @@ export default class BadgeCollectionScene extends Phaser.Scene {
   init(d) { const id = d?.provinceId || gm.provinceId; this.pid = gm.badges.isProvinceUnlocked(id) ? id : gm.badges.firstUnlockedProvince(); this.back = d?.back || 'MainMenuScene'; }
   create() {
     this.cameras.main.fadeIn(250, 0, 0, 0);
-    this.bg = new Backdrop(this, this.pid, { clouds: false }); this.add.rectangle(W / 2, H / 2, W, H, 0xf6e7c1, .88).setDepth(1);
+    this.bg = new Backdrop(this, this.pid, { clouds: false, depth: -20 }); this.add.rectangle(W / 2, H / 2, W, H, 0xf6e7c1, .88).setDepth(-10);
     this.render();
   }
   toast(msg) { this.toastTxt?.destroy(); const t = this.toastTxt = txt(this, W / 2, 150, 22, '#fff', { backgroundColor: '#b3262e', padding: { x: 14, y: 6 } }).setDepth(40).setText(msg); this.tweens.add({ targets: t, alpha: 0, delay: 1800, duration: 500, onComplete: () => t.destroy() }); }
