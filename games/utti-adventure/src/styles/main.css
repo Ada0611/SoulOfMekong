@@ -1,0 +1,5 @@
+html,body{margin:0;padding:0;height:100%;background:#1c2b1e;overflow:hidden;touch-action:none;overscroll-behavior:none;-webkit-user-select:none;user-select:none}
+#game{position:fixed;inset:0;display:flex;align-items:center;justify-content:center}
+#game canvas{display:block;touch-action:none}
+#rotate-hint{display:none;position:fixed;left:0;right:0;top:0;padding:10px;z-index:10;pointer-events:none;text-align:center;color:#fff3cf;font:600 15px/1.4 "Segoe UI",Arial,sans-serif;background:rgba(40,60,30,.82)}
+@media (orientation:portrait) and (max-width:700px){#rotate-hint{display:block}}

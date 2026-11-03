@@ -8,7 +8,7 @@ export const project = {
   members: ['Huỳnh Như Ý (Leader)','Nguyễn Trúc Mai','Trần Hà Bảo Trân','Lâm Thanh Tuấn','Nguyễn Võ Nhật Duy'].map(n => ({ name: n, share: 20 })),
   nav: [
     { to: '/', label: 'Trang chủ' }, { to: '/cau-chuyen', label: 'Câu chuyện' },
-    { to: '/video', label: 'Video' }, { to: '/thu-vien-anh', label: 'Thư viện ảnh' }, { to: '/ve-du-an', label: 'Về dự án' },
+    { to: '/video', label: 'Video' }, { to: '/thu-vien-anh', label: 'Thư viện ảnh' }, { to: '/tro-choi', label: 'Trò chơi' }, { to: '/ve-du-an', label: 'Về dự án' },
   ],
 };
 const B = 'https://lh3.googleusercontent.com/aida-public/';
