@@ -189,8 +189,8 @@ export default function Home() {
               <span className="w-1.5 h-6 bg-secondary rounded-full" />
               <span className="font-label-stamp text-label-stamp text-tertiary-container uppercase tracking-wider">Tài liệu thực địa</span>
             </div>
-            <h2 className="font-headline-lg text-[28px] sm:text-headline-lg text-primary font-bold">4 điểm đến, 4 câu chuyện</h2>
-            <p className="text-body-md text-on-surface-variant mt-1">Hành trình nhóm đã đi qua ở An Giang và Vĩnh Long</p>
+            <h2 className="font-headline-lg text-[28px] sm:text-headline-lg text-primary font-bold">Câu chuyện miền Tây</h2>
+            <p className="text-body-md text-on-surface-variant mt-1">Những hành trình nhóm đã đi qua</p>
           </div>
           <Link to="/cau-chuyen" className="inline-flex items-center gap-1.5 text-secondary font-label-ui text-label-ui hover:text-primary">
             <span>Xem tất cả câu chuyện</span>

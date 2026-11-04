@@ -1,4 +1,4 @@
-// 4 điểm đến nhóm đã thực địa — nội dung lấy từ Script.docx.
+// 4 điểm đến nhóm đã thực địa (nội dung từ Script.docx) + 4 chủ đề bổ sung: ghe xuồng, đan đát Sóc Trăng, đờn ca tài tử Bạc Liêu, đám giỗ miền Tây.
 // image: để trống thì thẻ hiển thị ô màu + biểu tượng; thêm ảnh thật bằng cách gán đường dẫn, ví dụ image: '/tan-chau.jpg' (đặt file trong /public).
 export const stories = [
   {
@@ -378,7 +378,7 @@ export const stories = [
     "read": "2 phút đọc",
     "province": "Vĩnh Long",
     "icon": "account_balance",
-    "date": null,
+    "date": "01/10/2026",
     "short": "Gốm đỏ Mang Thít",
     "category": "Câu chuyện",
     "image": "/Gach.png",
@@ -509,6 +509,617 @@ export const stories = [
     "category": "Câu chuyện",
     "image": "/BanhTrang.png",
     "order": 4
+  },
+  {
+    "slug": "ghe-tau-song-nuoc-mien-tay",
+    "title": "Ghe tàu sông nước miền Tây: Những “đôi chân” trên kênh rạch Cửu Long",
+    "place": "Sông nước Đồng bằng sông Cửu Long (Cần Thơ, An Giang…)",
+    "excerpt": "Từ chiếc xuồng ba lá ghép từ ba tấm ván đến ghe máy đuôi tôm và những chiếc ghe hàng trăm tấn, mỗi loại ghe xuồng đều kết tinh kinh nghiệm sống chung với sông nước của người miền Tây — và vẫn lặng lẽ chở nếp sống ấy đi tiếp đến hôm nay!",
+    "body": [
+      {
+        "type": "p",
+        "text": "Ở miền Tây, sông rạch chằng chịt như mạng nhện nên từ lâu ghe xuồng đã trở thành “đôi chân” của người dân. Nhà vườn ven sông gần như nhà nào cũng có đôi ba chiếc xuồng, ghe lớn nhỏ, chèo tay hoặc gắn máy nổ, tùy việc mà đem ra dùng. Tụi mình tìm hiểu để thấy mỗi loại ghe xuồng đang mang một câu chuyện riêng như thế nào."
+      },
+      {
+        "type": "h",
+        "text": "1. Xuồng và ghe — khác nhau ở đâu?"
+      },
+      {
+        "type": "p",
+        "text": "Dân gian thường gọi gộp là “ghe xuồng”, nhưng hai loại phương tiện này khác nhau khá rõ:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          [
+            "Xuồng",
+            "Nhỏ gọn hơn, dài khoảng 4 mét, thường ghép từ vài tấm ván lớn, hợp để đi gần nhà và len vào kênh rạch nhỏ. Các loại quen thuộc gồm xuồng ba lá, xuồng năm lá, xuồng tam bản, xuồng vỏ gòn, xuồng độc mộc và xuồng máy."
+          ],
+          [
+            "Ghe",
+            "Lớn hơn, có boong chiếm hơn nửa chiều dài, có bánh lái và cần điều khiển, thường dùng chở hàng và đi xa. Tên gọi cũng rất đa dạng: ghe bầu, ghe lồng, ghe chài, ghe cào tôm, ghe hầu, ghe ngo…"
+          ],
+          [
+            "Chuyện cái tên “tam bản”",
+            "Từ này bắt nguồn từ tiếng Hoa “xam pản”, người Pháp phiên âm thành “sampan” rồi lan ra khắp vùng sông nước Nam Bộ."
+          ]
+        ]
+      },
+      {
+        "type": "h",
+        "text": "2. Xuồng ba lá — chiếc xuồng bé nhỏ của đất Nam Bộ"
+      },
+      {
+        "type": "p",
+        "text": "Gọi là “ba lá” vì nguyên bản thân xuồng được đóng từ ba tấm ván: một tấm bản lớn làm đáy, hai tấm còn lại làm mạn xuồng. Xuồng ba lá trung bình dài khoảng 4 mét, rộng 1 mét, chở được 4 – 6 người; các đường nối được trét nhựa chai, mũi và lái đều nhọn để dễ luồn qua những con rạch hẹp."
+      },
+      {
+        "type": "ul",
+        "items": [
+          [
+            "Nhiều cách chèo",
+            "Người ta có thể chèo mái đứng, chèo bằng hai chân hoặc chèo một mái; đoạn cạn thì dùng sào nạng để đẩy xuồng đi."
+          ],
+          [
+            "Như “đôi chân” của mỗi nhà",
+            "Nhà nào ở miền Tây phía trước cũng có một chiếc xuồng ba lá, đi gần đi xa đều trông cậy vào nó."
+          ],
+          [
+            "Mỗi vùng một kiểu",
+            "Riêng vùng Cần Thơ, loại xuồng ra đời sớm là xuồng năm lá (ghép bằng năm tấm ván) cùng ghe tam bản, dễ di chuyển ở những khúc sông lục bình dày đặc."
+          ],
+          [
+            "Biểu tượng với du khách",
+            "Nhiều du khách chụp ảnh xuồng ba lá rồi ví von nó như chiếc gondola của xứ Venice phiên bản Nam Bộ."
+          ]
+        ]
+      },
+      {
+        "type": "h",
+        "text": "3. Từ mái chèo đến ghe máy đuôi tôm, chợ nổi và ghe ngo"
+      },
+      {
+        "type": "ul",
+        "items": [
+          [
+            "Ghe máy đuôi tôm",
+            "Xuất hiện từ khoảng thập niên 1960, còn gọi là “tắc ráng”, gắn máy nổ và chân vịt để đi nhanh hơn sức người chèo."
+          ],
+          [
+            "Ghe xuồng của chợ nổi",
+            "Ở chợ nổi, người ta lấy mặt sông làm mặt chợ và lấy ghe xuồng làm phương tiện chở hàng hóa, nên hình ảnh ghe bán hàng bập bềnh trên sông gắn liền với đời sống buôn bán miền Tây."
+          ],
+          [
+            "Ghe ngo của người Khmer",
+            "Với đồng bào Khmer Nam Bộ, ghe ngo không chỉ để đua tài trên sông nước mà còn được xem là báu vật linh thiêng, được nhiều dòng họ giữ nghề đóng qua nhiều đời."
+          ]
+        ]
+      },
+      {
+        "type": "h",
+        "text": "4. Mỹ Hiệp — nơi nhịp búa đóng ghe vẫn vang bên sông Tiền"
+      },
+      {
+        "type": "p",
+        "text": "Làng nghề đóng ghe xuồng Mỹ Hiệp nằm trên Cù lao Giêng giữa sông Tiền (An Giang), được giới thiệu là có tuổi đời hơn 100 năm. Theo các bậc cao niên, nghề đóng xuồng ở đây đã xuất hiện từ thời khẩn hoang."
+      },
+      {
+        "type": "ul",
+        "items": [
+          [
+            "Đủ loại ghe xuồng",
+            "Làng nghề đóng xuồng ba lá, xuồng cui, xuồng Ông Chưởng, vỏ lãi cho đến những chiếc ghe có trọng tải hàng trăm tấn."
+          ],
+          [
+            "Vì sao xuồng Mỹ Hiệp được ưa chuộng",
+            "Xuồng nhẹ, bền, kín lườn, mũi thon gọn, bơi vững và tiết kiệm sức chèo, giá thành lại hợp lý."
+          ],
+          [
+            "Thăng trầm theo thời cuộc",
+            "Những năm 1960 – 1970 là thời kỳ hưng thịnh; sau đó có giai đoạn nhiều trại xuồng chỉ hoạt động cầm chừng vài tháng trong năm."
+          ],
+          [
+            "Mở cửa đón khách",
+            "Du khách ghé làng có thể xem tận mắt các công đoạn đóng xuồng và nghe câu chuyện hơn một thế kỷ giữ nghề."
+          ]
+        ]
+      },
+      {
+        "type": "h",
+        "text": "5. Ghe xuồng hôm nay"
+      },
+      {
+        "type": "p",
+        "text": "Nhịp sống thay đổi, đường bộ ngày càng nhiều, nhưng vì “trời sinh đất này lắm sông nhiều rạch”, chiếc xuồng con, ghe nhỏ vẫn còn thân thuộc ở miệt vườn. Bên cạnh việc chở người, chở nông sản, nhiều chiếc xuồng ba lá nay còn đưa du khách dạo vườn, ghé rừng tràm hay len vào những con rạch rợp bóng dừa nước."
+      },
+      {
+        "type": "h",
+        "text": "Lời kết"
+      },
+      {
+        "type": "p",
+        "text": "Mỗi chiếc ghe, chiếc xuồng không chỉ là một phương tiện đi lại mà còn là kinh nghiệm sống chung với con nước của bao thế hệ người miền Tây. Giữ được tiếng chèo khua nước và nhịp búa đóng ghe bên sông cũng là giữ lại một phần hồn của vùng đất này."
+      }
+    ],
+    "refs": [
+      [
+        "Báo Sài Gòn Giải Phóng",
+        "Xuồng thuyền miền Tây",
+        "sggp.org.vn"
+      ],
+      [
+        "Báo Pháp Luật TP.HCM",
+        "Dọc ngang miền sông nước",
+        "plo.vn"
+      ],
+      [
+        "Đài Tiếng nói Việt Nam (VOV)",
+        "Hồn ghe ngo và hành trình giữ lửa của dòng họ 4 đời ở miền Tây",
+        "vov.vn"
+      ],
+      [
+        "Báo Thanh Niên",
+        "Sông Mê Kông và văn hóa miền sông nước Cửu Long",
+        "thanhnien.vn"
+      ],
+      [
+        "Sun Paradise Land (chỉ dẫn du lịch)",
+        "Làng nghề đóng ghe xuồng Mỹ Hiệp – Di sản trăm năm giữa An Giang",
+        "sunparadiseland.com"
+      ],
+      [
+        "Loigiaihay.com",
+        "Soạn bài Ghe xuồng Nam Bộ (SGK Ngữ văn 7, Cánh diều)",
+        "loigiaihay.com"
+      ]
+    ],
+    "read": "4 phút đọc",
+    "province": "Miền Tây",
+    "icon": "directions_boat",
+    "date": "03/10/2026",
+    "short": "Ghe xuồng sông nước",
+    "category": "Câu chuyện",
+    "image": "/Ghe5.png",
+    "order": 5
+  },
+  {
+    "slug": "lang-nghe-dan-dat-phuoc-quoi-soc-trang",
+    "title": "Ghé Phước Quới: Nghe tiếng nan tre trong làng nghề đan đát của người Khmer Sóc Trăng",
+    "place": "Ấp Phước Quới, xã Phú Tân, huyện Châu Thành (Sóc Trăng cũ, nay thuộc TP. Cần Thơ)",
+    "excerpt": "Về làng nghề đan đát Phước Quới – Phú Tân, nơi bà con Khmer chuốt từng sợi nan tre thành lợp, lờ, rổ, thúng, nia… và nghe chuyện một làng nghề trăm năm đang tìm lối đi mới giữa nhịp sống hiện đại!",
+    "body": [
+      {
+        "type": "p",
+        "text": "Nhắc đến Sóc Trăng, nhiều người nghĩ ngay đến bánh pía hay những ngôi chùa Khmer, nhưng vùng đất này còn lưu giữ những làng nghề mà người dân truyền từ đời này sang đời khác. Một trong số đó là làng nghề đan đát ở ấp Phước Quới, xã Phú Tân (huyện Châu Thành), nơi người Khmer biến những cây tre, trúc thành đủ loại vật dụng cho đời sống và sản xuất."
+      },
+      {
+        "type": "h",
+        "text": "1. Làng nghề của bà con Khmer"
+      },
+      {
+        "type": "ul",
+        "items": [
+          [
+            "Một nét văn hóa riêng",
+            "Nghề đan lát ở Phước Quới từ lâu không chỉ là ngành nghề truyền thống mà đã trở thành một nét văn hóa riêng của đồng bào Khmer."
+          ],
+          [
+            "Từ vài chục hộ đến vài trăm hộ",
+            "Ban đầu chỉ có vài chục hộ theo nghề, về sau số hộ tăng lên vài trăm, đa số là người Khmer."
+          ],
+          [
+            "Được đầu tư để giữ nghề",
+            "Địa phương dùng nguồn vốn hỗ trợ để xây nhà xưởng, phòng trưng bày sản phẩm và trang bị máy chẻ nan tre; từ năm 2006, hợp tác xã làng nghề được mở rộng với 126 hộ người Khmer tham gia (theo MIA.vn)."
+          ]
+        ]
+      },
+      {
+        "type": "h",
+        "text": "2. Từ cây tre đến chiếc lợp, chiếc nia"
+      },
+      {
+        "type": "p",
+        "text": "Làng nghề đan đát Phú Tân có lịch sử lâu đời, nhiều hộ gia đình sống nhờ các sản phẩm quen thuộc của đời sống sông nước và nhà nông:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          [
+            "Lợp, lờ, rổ xúc tôm cá",
+            "Những dụng cụ đánh bắt gắn với vùng đồng ruộng, kênh rạch của người dân Sóc Trăng."
+          ],
+          [
+            "Thúng, nia, xịa, cần xé",
+            "Những vật dụng thân thuộc trong gian bếp, ngoài ruộng, ngoài sông; mỗi món cần sự khéo léo và tỉ mỉ của người thợ."
+          ],
+          [
+            "Nan tre, đôi tay và máy hỗ trợ",
+            "Tre, trúc được chẻ thành nan rồi đan hoàn toàn bằng tay; riêng khâu chẻ nan nay đã có máy hỗ trợ để người thợ bớt vất vả."
+          ]
+        ]
+      },
+      {
+        "type": "h",
+        "text": "3. Những con người giữ nghề"
+      },
+      {
+        "type": "p",
+        "text": "Theo Báo Văn hóa, bà Lâm Thị Nết ở ấp Phước Quới theo nghề đan đát gần 40 năm, thuộc lòng từng công đoạn; mỗi ngày bà đan được khoảng 4 cần xé và sau khi trừ chi phí thu về gần 100.000 đồng."
+      },
+      {
+        "type": "p",
+        "text": "Hợp tác xã Làng nghề đan đát Phú Tân hiện có khoảng 30 thành viên làm đan đát, sản xuất cốm dẹp và hàng thủ công mỹ nghệ. Hợp tác xã liên kết với các cơ sở thu mua, thương lái lớn để lo đầu ra, đồng thời hợp tác với các điểm du lịch để giới thiệu mẫu đan làm quà lưu niệm."
+      },
+      {
+        "type": "h",
+        "text": "4. Làm mới nghề xưa"
+      },
+      {
+        "type": "ul",
+        "items": [
+          [
+            "Chị Trương Thị Bạch Thủy",
+            "Giám đốc Hợp tác xã Mây tre đan Thủy Tuyết, người Khmer, được công nhận Nghệ nhân cấp Quốc gia ngành mây tre đan vì đã góp phần làm sống lại làng nghề Phú Tân."
+          ],
+          [
+            "Việc làm cho phụ nữ",
+            "Theo số liệu báo chí cuối năm 2024, hợp tác xã tạo việc làm ổn định cho 32 xã viên và hơn 60 hội viên phụ nữ; thu nhập trung bình mỗi hộ từ nghề đan đát khoảng 7 – 10 triệu đồng mỗi tháng."
+          ],
+          [
+            "Đưa tre vào không gian sống",
+            "Ngoài đồ thủ công mỹ nghệ, hợp tác xã còn đưa tre trúc vào trang trí nội thất, công trình nhà tre, homestay và resort."
+          ],
+          [
+            "Hướng đến du lịch",
+            "Làng nghề Phước Quới xây dựng kế hoạch phát triển các sản phẩm mỹ nghệ để phục vụ du khách đến tham quan và mua quà lưu niệm."
+          ]
+        ]
+      },
+      {
+        "type": "h",
+        "text": "5. Nỗi lo giữ nghề"
+      },
+      {
+        "type": "p",
+        "text": "Không phải lúc nào làng nghề cũng thuận lợi. Đồ gia dụng công nghiệp ngày càng phổ biến khiến nghề đan đát dần bị mai một; ở nhiều làng nghề truyền thống miền Tây, nghệ nhân ngày một lớn tuổi còn thợ trẻ theo nghề chưa nhiều. Vì vậy đào tạo lớp kế thừa, nâng cao chất lượng và tìm đầu ra ổn định cho sản phẩm là những bài toán được nhắc đến nhiều nhất."
+      },
+      {
+        "type": "h",
+        "text": "Lời kết"
+      },
+      {
+        "type": "p",
+        "text": "Cầm trên tay chiếc rổ, chiếc nia đan tay mộc mạc mới thấy hết sự kiên nhẫn của người thợ Khmer Phước Quới. Mỗi sợi nan là một mối nối giữa quá khứ và hiện tại — và việc giữ cho những đôi tay ấy còn đan được là cách để văn hóa làng nghề không lặng đi."
+      }
+    ],
+    "refs": [
+      [
+        "Báo Văn hóa",
+        "Làng nghề đan đát Phú Tân: Câu chuyện sinh kế và phát triển cộng đồng",
+        "baovanhoa.vn"
+      ],
+      [
+        "Tạp chí Công Thương",
+        "Khởi sắc nghề đan lát Phước Quới",
+        "tapchicongthuong.vn"
+      ],
+      [
+        "Báo Nhân Dân",
+        "Khát vọng gìn giữ nghề đan tre trúc của người phụ nữ Khmer ở Cần Thơ",
+        "nhandan.vn"
+      ],
+      [
+        "MIA.vn",
+        "4 làng nghề truyền thống ở Sóc Trăng làm nên tên tuổi của vùng đất này",
+        "mia.vn"
+      ],
+      [
+        "Báo Nhân Dân",
+        "Hướng phát triển làng nghề truyền thống ở Tây Nam Bộ",
+        "nhandan.vn"
+      ]
+    ],
+    "read": "4 phút đọc",
+    "province": "Sóc Trăng",
+    "icon": "shopping_basket",
+    "date": "05/10/2026",
+    "short": "Đan đát Phước Quới",
+    "category": "Câu chuyện",
+    "image": "/dan1.png",
+    "order": 6
+  },
+  {
+    "slug": "don-ca-tai-tu-bac-lieu",
+    "title": "Ghé Bạc Liêu: Nghe đờn ca tài tử nơi bản “Dạ cổ hoài lang” cất tiếng",
+    "place": "Thành phố Bạc Liêu (Bạc Liêu cũ, nay thuộc tỉnh Cà Mau)",
+    "excerpt": "Về Bạc Liêu – một trong những cái nôi của đờn ca tài tử Nam Bộ – lắng nghe câu chuyện bản “Dạ cổ hoài lang” ra đời năm 1919, thăm khu lưu niệm nhạc sĩ Cao Văn Lầu và tìm hiểu vì sao tiếng đờn, tiếng ca mộc mạc ấy được UNESCO ghi danh!",
+    "body": [
+      {
+        "type": "p",
+        "text": "Nhắc đến Bạc Liêu, nhiều người nhớ đến “công tử Bạc Liêu”, nhưng với người mê cải lương thì đây còn là quê hương của bản “Dạ cổ hoài lang” — bài bản được các nhà nghiên cứu xem là tiền thân của vọng cổ. Tụi mình tìm hiểu vì sao tiếng đờn tiếng ca ở vùng đất này lại được gìn giữ và tự hào đến vậy."
+      },
+      {
+        "type": "h",
+        "text": "1. Đờn ca tài tử là gì?"
+      },
+      {
+        "type": "p",
+        "text": "Đờn ca tài tử là loại hình nghệ thuật dân gian của Nam Bộ, gắn với những người chơi nhạc vì đam mê — các “tài tử” — vừa đờn vừa ca trong sinh hoạt thường ngày và những buổi giao lưu. Dàn nhạc thường có đờn kìm (đàn nguyệt), đờn tranh, đờn cò, guitar phím lõm…"
+      },
+      {
+        "type": "ul",
+        "items": [
+          [
+            "Di sản nhân loại",
+            "Cuối năm 2013, Nghệ thuật Đờn ca tài tử Nam Bộ được UNESCO ghi danh là Di sản văn hóa phi vật thể đại diện của nhân loại."
+          ],
+          [
+            "Phong trào rộng khắp",
+            "Theo hồ sơ đệ trình UNESCO, có gần 30.000 người chơi đờn ca tài tử, sinh hoạt trong vài nghìn câu lạc bộ, nhóm, đội."
+          ],
+          [
+            "Bạc Liêu — một cái nôi",
+            "Bạc Liêu được xem là một trong những cái nôi của đờn ca tài tử; ở vùng Bạc Liêu cũ, người dân hầu như ai cũng có thể ca đờn ca tài tử và cải lương rất mùi mẫn."
+          ]
+        ]
+      },
+      {
+        "type": "h",
+        "text": "2. Cao Văn Lầu và bản “Dạ cổ hoài lang”"
+      },
+      {
+        "type": "ul",
+        "items": [
+          [
+            "Người sáng tác",
+            "Nhạc sĩ Cao Văn Lầu sinh ngày 22/12/1890 ở Long An, năm 9 tuổi theo gia đình đến Bạc Liêu lập nghiệp và mất ngày 13/8/1976."
+          ],
+          [
+            "Ra đời năm 1919",
+            "Bản “Dạ cổ hoài lang” (Nghe tiếng trống đêm nhớ chồng) ra đời năm 1919, chất chứa nỗi nhớ thương và cảnh chia xa của vợ chồng."
+          ],
+          [
+            "Từ nhịp 2 đến vọng cổ",
+            "Bài bản ban đầu có nhịp 2, về sau phát triển thành vọng cổ nhịp 4, 8, 16, 32, 64; các nhà nghiên cứu xem đây là tiền thân của bài vọng cổ ngày nay."
+          ],
+          [
+            "Nhiều dị bản",
+            "Bản nhạc được chỉnh sửa qua nhiều lần nên có nhiều dị bản; Bạc Liêu từng tổ chức hội thảo để xác định văn bản chuẩn."
+          ]
+        ]
+      },
+      {
+        "type": "h",
+        "text": "3. Dấu ấn giữa lòng phố thị Bạc Liêu"
+      },
+      {
+        "type": "ul",
+        "items": [
+          [
+            "Khu lưu niệm",
+            "Khu lưu niệm nghệ thuật đờn ca tài tử Nam Bộ và nhạc sĩ Cao Văn Lầu có bốn ngôi mộ: cha mẹ nhạc sĩ và vợ chồng ông – bà Trần Thị Tấn."
+          ],
+          [
+            "Nhà hát Cao Văn Lầu",
+            "Hoàn thành năm 2014, thiết kế theo hình ba chiếc nón lá đan xen, rộng 1.800 m², gồm 3 tầng với độ cao giảm dần — gắn với hình ảnh người phụ nữ Nam Bộ."
+          ],
+          [
+            "Lễ hội Dạ cổ hoài lang",
+            "Với các hoạt động như lễ giỗ Tổ cổ nhạc, dâng hương viếng mộ nhạc sĩ, hội thi tìm hiểu Dạ cổ hoài lang – vọng cổ – đờn ca tài tử, hò chèo ghe, nói thơ Bạc Liêu và Liên hoan đờn ca tài tử ba tỉnh Bạc Liêu – Sóc Trăng – Cà Mau."
+          ],
+          [
+            "Mốc 100 năm",
+            "Năm 2019, Tuần Văn hóa – Du lịch Bạc Liêu được tổ chức gắn với kỷ niệm 100 năm ra đời bản Dạ cổ hoài lang."
+          ]
+        ]
+      },
+      {
+        "type": "h",
+        "text": "4. Giữ tiếng đờn cho thế hệ sau"
+      },
+      {
+        "type": "p",
+        "text": "Nhiều năm qua, các cấp, ngành ở Bạc Liêu mở các lớp hướng dẫn, truyền dạy hát “Dạ cổ hoài lang” và điệu thức trong đờn ca tài tử cho người học, đồng thời gắn di sản với du lịch để khách đến Bạc Liêu có thể vừa tham quan vừa thưởng thức tiếng đờn tại chỗ."
+      },
+      {
+        "type": "p",
+        "text": "Lưu ý khi tìm hiểu: từ ngày 1/7/2025, tỉnh Bạc Liêu đã hợp nhất với tỉnh Cà Mau thành tỉnh Cà Mau, nên “Bạc Liêu” hiện nay chủ yếu là tên gọi lịch sử và tên phường, nhưng vị thế “quê hương Dạ cổ hoài lang” của vùng đất này vẫn không thay đổi."
+      },
+      {
+        "type": "h",
+        "text": "Lời kết"
+      },
+      {
+        "type": "p",
+        "text": "Một tiếng đờn kìm, một câu ca mùi mẫn cất lên giữa đêm Bạc Liêu cho thấy đờn ca tài tử không phải thứ để ngắm trong bảo tàng mà là nghệ thuật vẫn đang được hát lên mỗi ngày. Giữ được tiếng đờn ấy cũng là giữ lại tiếng lòng mộc mạc, nghĩa tình của người Nam Bộ."
+      }
+    ],
+    "refs": [
+      [
+        "Báo Văn hóa",
+        "Một thế kỷ say đắm bản tình ca bất hủ Dạ cổ hoài lang",
+        "baovanhoa.vn"
+      ],
+      [
+        "Báo Nhân Dân",
+        "Về quê hương “Dạ cổ hoài lang”",
+        "nhandan.vn"
+      ],
+      [
+        "Báo Sài Gòn Giải Phóng",
+        "Phát huy giá trị du lịch cho đờn ca tài tử",
+        "sggp.org.vn"
+      ],
+      [
+        "Báo Pháp Luật Việt Nam",
+        "Bế mạc Lễ hội Dạ cổ Hoài lang Bạc Liêu: Lắng đọng nhiều cảm xúc sâu sắc",
+        "baophapluat.vn"
+      ],
+      [
+        "Báo Đầu tư",
+        "Rong ruổi phương Nam: Nét duyên của mảnh đất Dạ cổ hoài lang",
+        "baodautu.vn"
+      ],
+      [
+        "Báo Nhân Dân",
+        "Đờn ca tài tử tiếp tục tỏa sáng",
+        "nhandan.vn"
+      ]
+    ],
+    "read": "4 phút đọc",
+    "province": "Bạc Liêu",
+    "icon": "music_note",
+    "date": "10/10/2026",
+    "short": "Đờn ca tài tử Bạc Liêu",
+    "category": "Câu chuyện",
+    "image": "/don2.png",
+    "order": 7
+  },
+  {
+    "slug": "dam-gio-mien-tay",
+    "title": "Đám giỗ miền Tây: Khi cả xóm cùng thắp nén nhang nhớ người đã khuất",
+    "place": "Vùng nông thôn Đồng bằng sông Cửu Long",
+    "excerpt": "Hàng xóm sang phụ trước cả khi được mời, nồi thịt kho trứng to đùng, phần quà mang về cho khách… Đám giỗ miền Tây không chỉ là lễ cúng tổ tiên mà còn là bữa cơm đậm đà của tình làng nghĩa xóm!",
+    "body": [
+      {
+        "type": "p",
+        "text": "Ở miền Tây, đám giỗ là dịp con cháu từ xa tìm về thắp hương cho người đã khuất, đồng thời gia chủ đón bà con, hàng xóm đến dùng bữa. Tụi mình tìm hiểu để thấy vì sao đám giỗ nơi đây luôn rộn ràng và ấm áp đến vậy."
+      },
+      {
+        "type": "h",
+        "text": "1. Lời mời “cập rập” mà không ai trách"
+      },
+      {
+        "type": "p",
+        "text": "Điều thú vị là gia chủ lo cúng kiếng rất kỹ nhưng cách mời khách lại khá “cập rập”: có khi tới tối hôm trước ngày chính đám, gia chủ mới lật đật sang từng nhà mời. Vậy mà chẳng ai trách móc; thậm chí hàng xóm tự sắp xếp công việc để sang phụ giúp trước cả khi nhận lời mời."
+      },
+      {
+        "type": "p",
+        "text": "Nếp ứng xử này bắt nguồn từ tình làng nghĩa xóm “tối lửa tắt đèn có nhau”. Nhà ai có hậu sự thì bà con lối xóm tới lui chia buồn đến tận lúc chôn cất, nên ngày giỗ sau này cũng khó mà quên."
+      },
+      {
+        "type": "h",
+        "text": "2. Một ngày trước — bếp núc rộn ràng"
+      },
+      {
+        "type": "ul",
+        "items": [
+          [
+            "Bà con tề tựu",
+            "Trước ngày giỗ một ngày, cô bác anh em gần xa kéo về phụ giúp, người lớn thường dẫn theo con cháu để các em biết gốc gác, nguồn cội."
+          ],
+          [
+            "Cánh đàn ông “ra thịt”",
+            "Mổ heo, làm gà, làm vịt xong thì quây quần bên bàn trà hỏi thăm chuyện làm ăn, mùa màng và ôn lại kỷ niệm."
+          ],
+          [
+            "Cánh phụ nữ lo bếp",
+            "Sơ chế nguyên liệu cho các món như hủ tiếu xào, heo quay bánh hỏi, vịt nấu cà ri, lẩu cù lao; riêng nồi thịt kho trứng và khổ qua hầm nhồi thịt thường nấu thật to để vừa đãi khách vừa làm quà."
+          ],
+          [
+            "Đãi người phụ bếp",
+            "Gia chủ dọn sẵn bình trà đường, cà phê sữa cùng dĩa bánh quê như bánh tét, bánh bò, bánh da lợn, bánh ít; vơi thì lại đầy, giống như “niêu cơm Thạch Sanh”."
+          ]
+        ]
+      },
+      {
+        "type": "h",
+        "text": "3. Tiên thường, chánh giỗ, hậu thường"
+      },
+      {
+        "type": "p",
+        "text": "Theo cách gọi xưa, đám giỗ có thể kéo dài ba ngày là tiên thường, chánh giỗ và hậu thường — một nếp nay chỉ còn thấy ở các miền quê, nhất là miền Tây Nam Bộ."
+      },
+      {
+        "type": "ul",
+        "items": [
+          [
+            "Tối tiên thường",
+            "Không khí ấm cúng với nồi cháo gà, cháo vịt và món cuốn bì: thịt heo khìa cùng bì xắt sợi trộn thính, đậu phộng, rau thơm rồi cuốn bằng bánh tráng, xếp thành hình tháp, cắt khoanh nhỏ và chấm nước mắm chua ngọt."
+          ],
+          [
+            "Sáng chính đám",
+            "Mọi người thức dậy từ tờ mờ sáng nấu các món tiệc. Khi gia chủ báo “bắt mâm”, con cháu bưng thức ăn dâng lên bàn thờ rồi cùng thắp nhang khấn nguyện tổ tiên phù hộ những điều lành."
+          ],
+          [
+            "Món theo sở thích người mất",
+            "Bên cạnh các món cúng chung, nhiều nhà còn nấu món người quá cố lúc sinh thời ưa thích, như cá lóc nướng trui, cá lòng tong kho tiêu, mắm ba khía trộn hay canh chua cá chốt."
+          ]
+        ]
+      },
+      {
+        "type": "h",
+        "text": "4. Đi giỗ: có đến là có lòng"
+      },
+      {
+        "type": "p",
+        "text": "Người miền Tây thường nói đám giỗ nồng hậu trên tinh thần “thương nhau mới đến, mến nhau mới mời” — khách không đi theo kiểu xã giao."
+      },
+      {
+        "type": "ul",
+        "items": [
+          [
+            "Quà của khách",
+            "Ngày xưa khách hay xách theo cam sành, vú sữa hay bịch đường để phụ bếp gia chủ; ngày nay quà gọn hơn bằng phong bì để chủ nhà tiện chi tiêu, nhưng tấm lòng thì vẫn vậy."
+          ],
+          [
+            "Phần mang về",
+            "Sau mâm cơm, khách ra về đôi khi còn được gửi thêm bánh, xôi, trái cây hoặc một phần thức ăn. Có người nhà còn người già, trẻ nhỏ xin thêm, gia chủ vẫn vui vẻ gói cho, đúng tinh thần “có gì chia nấy”."
+          ]
+        ]
+      },
+      {
+        "type": "h",
+        "text": "5. Giữ nếp giỗ trong nhịp sống mới"
+      },
+      {
+        "type": "p",
+        "text": "Nhịp sống hiện đại thay đổi, mỗi vùng miền một phong tục, nhưng việc cúi đầu tưởng nhớ tổ tiên thì không thay đổi vì ai sinh ra cũng có cội có nguồn. Trong gian bếp đám giỗ, người lớn truyền lại cho con cháu từng việc nhỏ: người nấu lẩu, người ướp thịt, người gói bánh ít… để sau này còn người nối nghiệp giữ nếp nhà."
+      },
+      {
+        "type": "h",
+        "text": "Lời kết"
+      },
+      {
+        "type": "p",
+        "text": "Một đám giỗ miền Tây là nơi nén nhang gặp tiếng cười, nồi thịt kho gặp tình hàng xóm. Ở đó, người ta không chỉ nhớ người đã khuất mà còn học cách sống tử tế, hào phóng với nhau — thứ “gia phong” mộc mạc nhưng bền bỉ của vùng sông nước."
+      }
+    ],
+    "refs": [
+      [
+        "Báo Thanh Niên",
+        "Đám giỗ miền Tây: Sao hàng xóm chưa được mời đã sang phụ?",
+        "thanhnien.vn"
+      ],
+      [
+        "Báo Znews (Tri thức - Znews)",
+        "Vì sao đi ăn đám giỗ miền Tây, khách được gói phần mang về?",
+        "znews.vn"
+      ],
+      [
+        "Báo Znews (Tri thức - Znews)",
+        "Vì sao đám giỗ miền Tây thường có thịt kho trứng?",
+        "znews.vn"
+      ],
+      [
+        "Báo Sài Gòn Giải Phóng",
+        "Đám giỗ quê nhà",
+        "sggp.org.vn"
+      ],
+      [
+        "Báo Sài Gòn Giải Phóng",
+        "Về ăn đám giỗ",
+        "sggp.org.vn"
+      ]
+    ],
+    "read": "4 phút đọc",
+    "province": "Miền Tây",
+    "icon": "restaurant",
+    "date": "30/10/2026",
+    "short": "Đám giỗ miền Tây",
+    "category": "Câu chuyện",
+    "image": "/gio2.png",
+    "order": 8
   },
 ];
 export const categories = ['Tất cả', ...new Set(stories.map(s => s.province))];
