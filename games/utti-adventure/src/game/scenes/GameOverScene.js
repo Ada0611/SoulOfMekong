@@ -11,7 +11,7 @@ export default class GameOverScene extends Phaser.Scene {
   create() {
     gm.state = 'GAME_OVER'; const { score, provinceId } = this.d, p = getProvince(provinceId), best = gm.storage.getBestScore(), prog = gm.badges.getCollectionProgress(provinceId), target = gm.badges.getTargetBadge(provinceId);
     this.cameras.main.fadeIn(400, 0, 0, 0);
-    new Backdrop(this, provinceId, { clouds: false });
+    new Backdrop(this, provinceId, { clouds: false, depth: -20 });
     this.add.rectangle(W / 2, H / 2, W, H, 0x000000, .45);
     panel(this, W / 2, H / 2, 920, 650);
     txt(this, W / 2, 112, 40, '#6a3f12', { align: 'center' }).setText('ÚT TÍ ĐÃ THẤM MỆT RỒI!');
